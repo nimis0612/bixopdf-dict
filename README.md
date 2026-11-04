@@ -1,7 +1,7 @@
 # BixoPDF dictionary packs
 
-Language packs for the dictionary of [BixoPDF](https://www.bixopdf.com): English, Korean, Japanese and Chinese,
-linked by sense, so that a word can be looked up from any of the four languages into any other.
+Language packs for the dictionary of [BixoPDF](https://www.bixopdf.com): English, Korean, Japanese, Chinese, German,
+French and Russian, linked by sense, so that a word can be looked up from any of the seven languages into any other.
 
 The packs are attached to the [releases](https://github.com/nimis0612/bixopdf-dict/releases). BixoPDF downloads them
 when you press **Download** or **Check for updates** in its Dictionary panel; you can also download a file here and add
@@ -9,10 +9,13 @@ it with **Import dictionary files**.
 
 | File | Language | Download | Installed |
 |---|---|---|---|
-| `en.sqlite.br` | English | about 41 MB | 131 MB |
-| `ko.sqlite.br` | Korean | about 15 MB | 52 MB |
-| `ja.sqlite.br` | Japanese | about 31 MB | 106 MB |
-| `zh.sqlite.br` | Chinese | about 23 MB | 75 MB |
+| `en.sqlite.br` | English | about 69 MB | 224 MB |
+| `ko.sqlite.br` | Korean | about 22 MB | 78 MB |
+| `ja.sqlite.br` | Japanese | about 35 MB | 124 MB |
+| `zh.sqlite.br` | Chinese | about 27 MB | 87 MB |
+| `de.sqlite.br` | German | about 60 MB | 290 MB |
+| `fr.sqlite.br` | French | about 47 MB | 159 MB |
+| `ru.sqlite.br` | Russian | about 46 MB | 212 MB |
 | `packs.json` | the list: file, sizes, SHA-256, build date | | |
 
 Each pack is one SQLite database, compressed with Brotli. Its tables: `lexeme` (headwords with their frequency),
@@ -24,10 +27,13 @@ with `source` naming where each sense comes from.
 
 | Source | Used for | Licence |
 |---|---|---|
-| [Basic Korean Dictionary](https://krdict.korean.go.kr) (한국어기초사전), National Institute of Korean Language | Korean definitions, examples, inflections; their English, Japanese and Chinese translations | CC BY-SA 2.0 KR |
-| [English Wiktionary](https://en.wiktionary.org), via [Wiktextract](https://github.com/tatuylonen/wiktextract) / [kaikki.org](https://kaikki.org) | all four languages; translation tables | CC BY-SA 4.0 and GFDL |
-| [Korean Wiktionary](https://ko.wiktionary.org) (한국어 위키낱말사전), via Wiktextract | Korean glosses of English, Japanese and Chinese words | CC BY-SA 4.0 and GFDL |
+| [Basic Korean Dictionary](https://krdict.korean.go.kr) (한국어기초사전), National Institute of Korean Language | Korean definitions, examples, inflections; their English, Japanese, Chinese, French and Russian translations | CC BY-SA 2.0 KR |
+| [English Wiktionary](https://en.wiktionary.org), via [Wiktextract](https://github.com/tatuylonen/wiktextract) / [kaikki.org](https://kaikki.org) | all seven languages; translation tables | CC BY-SA 4.0 and GFDL |
+| [Korean Wiktionary](https://ko.wiktionary.org) (한국어 위키낱말사전), via Wiktextract | Korean glosses of words of the other languages | CC BY-SA 4.0 and GFDL |
 | [Japanese Wiktionary](https://ja.wiktionary.org) (ウィクショナリー日本語版), via Wiktextract | Japanese definitions and translation tables | CC BY-SA 4.0 and GFDL |
+| [German Wiktionary](https://de.wiktionary.org) (Deutsches Wiktionary), via Wiktextract | German definitions, inflections and translation tables | CC BY-SA 4.0 and GFDL |
+| [French Wiktionary](https://fr.wiktionary.org) (Wiktionnaire), via Wiktextract | French definitions, inflections and translation tables | CC BY-SA 4.0 and GFDL |
+| [Russian Wiktionary](https://ru.wiktionary.org) (Русский Викисловарь), via Wiktextract | Russian definitions, inflections and translation tables | CC BY-SA 4.0 and GFDL |
 | [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project), Electronic Dictionary Research and Development Group | Japanese words, readings, English glosses | CC BY-SA 4.0 |
 | [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict), MDBG | Chinese words, pinyin, English glosses | CC BY-SA 4.0 |
 | [Japanese WordNet](https://bond-lab.github.io/wnja/) 2.1, NICT and Francis Bond | Japanese senses linked to WordNet | WordNet licence ([text](licenses/japanese-wordnet.txt)) |

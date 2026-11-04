@@ -12,7 +12,7 @@ Parts of the packs come from sources with their own terms, which continue to app
 
 - **Basic Korean Dictionary** (한국어기초사전), © National Institute of Korean Language: CC BY-SA 2.0 KR,
   <https://creativecommons.org/licenses/by-sa/2.0/kr/>.
-- **Wiktionary** (English, Korean and Japanese editions): CC BY-SA 4.0 and GNU Free Documentation License.
+- **Wiktionary** (English, Korean, Japanese, German, French and Russian editions): CC BY-SA 4.0 and GNU Free Documentation License.
 - **JMdict**, © Electronic Dictionary Research and Development Group: CC BY-SA 4.0,
   <https://www.edrdg.org/edrdg/licence.html>.
 - **CC-CEDICT**, © MDBG: CC BY-SA 4.0.
